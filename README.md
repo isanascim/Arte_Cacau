@@ -1,2 +1,2 @@
-# Arte_Cacau
-Site da aula de programação de Aplicativos. Uma cafeteria com página inicial, cardápio e forma de contato.
+# ProgramacaoDeAplicativos
+Repositório destinado as aulas de Programação de Aplicativos do curso técnico de Desenvolvimento de Sistemas
