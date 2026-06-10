@@ -1,107 +1,107 @@
 *{
     margin:0;
-    padding:0;
+    padding:0;                                          /* todos os elementos da pagina e zera as margens */
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;           /*fonte do site*/
 }
 
 body{
-    background:#f8f4ef;
-    color:#333;
+    background:#f8f4ef;             /* cor do fundo*/
+    color:#333;                     /* cor do texto*/
 }
 
-header{
-    background:#4b2e2e;
-    color:white;
-    padding:20px;
-    text-align:center;
+header{                                       /* aplica estilo aos elementos*/
+    background:#4b2e2e;                        /* cor do fundo*/
+    color:white;                                /* cor do texto*/
+    padding:20px;                                  /* espaçamento ente os elementos*/
+    text-align:center;                              /* texto alinhado no centro*/
 }
 
 nav{
-    margin-top:15px;
+    margin-top:15px;                               /* adiciona amargem acima do menu*/
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+nav a{                                              /* selecion todos os links*/
+    color:white;                                  /*  deixa o texto em branco */
+    text-decoration:none;                            /*  remove sublinado*/
+    margin:0 15px;                                   /*  espaçamento lateral*/
+    font-weight:bold;                                /*  deixa o  texto em negrito */
 }
 
 nav a:hover{
-    color:#d9b38c;
+    color:#d9b38c;                                   /*  após passar com o mouse em cima a cor muda de branco para bege */
 }
 
 .hero{
-    text-align:center;
-    padding:100px 20px;
-    background:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93')
-    center/cover;
-    color:white;
+    text-align:center;                /*  centraliza */
+    padding:100px 20px;              /*  espaçamennto*/
+    background:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93')     /* coloca a imagem*/
+    center/cover;                                 /* centtraliza a imagem e faz ela oucupar toda a area*/
+    color:white;       /*  texto em branco*/
 }
 
 .hero h2{
-    font-size:3rem;
+    font-size:3rem;     /*  rem é relatico ao tamanho da fonte raiz, 3=48px, é o tamanho do texto*/
 }
 
 .hero p{
-    margin-top:15px;
-    font-size:1.2rem;
-}
+    margin-top:15px;     /* distancia do titulo*/
+    font-size:1.2rem;   /*tamanho*/
+}                                                       
 
 .conteudo{
-    max-width:1000px;
-    margin:auto;
-    padding:40px 20px;
+    max-width:1000px;    /* o conteudo nuna ultrapassa 1000px*/
+    margin:auto;         /*centraliza na horizontal*/
+    padding:40px 20px;  /*espaçamento interno*/
 }
 
 .conteudo h2{
-    margin-bottom:20px;
-    color:#4b2e2e;
+    margin-bottom:20px;    /*espaço abaixo*/
+    color:#4b2e2e;      /*cor marrom*/
 }
 
 .item{
-    background:white;
-    padding:20px;
-    margin-bottom:15px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    background:white;                             /*fundo branco*/
+    padding:20px;                                 /*espaçamento interno*/
+    margin-bottom:15px;                         /*espaçamrnto entre cards*/
+    border-radius:10px;                       /*bordas redondas*/
+    box-shadow:0 0 10px rgba(0,0,0,0.1);  /*sombras*/
 }
 
 form{
-    display:flex;
-    flex-direction:column;
-    gap:15px;
-}
+    display:flex;            /*organiza os elementos dento do flexbox*/
+    flex-direction:column;  /*organiz os elementos em colunas*/
+    gap:15px;               /*espaçamento entre os elementos*/
+} 
 
 input,
 textarea{
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:8px;
+    padding:12px;               /*espaçamento */
+    border:1px solid #ccc;   /*borda*/
+    border-radius:8px;         /*bordas arredondadas*/
 }
 
 button{
-    background:#4b2e2e;
-    color:white;
-    border:none;
-    padding:12px;
-    border-radius:8px;
-    cursor:pointer;
+    background:#4b2e2e;  /*cor marrom*/
+    color:white;         /*textos em branco*/
+    border:none;           /*sem borda*/
+    padding:12px;          /*espaçamento interno*/
+    border-radius:8px;     /*bordas arredondadas*/
+    cursor:pointer;        /*transorma o cursor em maozinha*/
 }
 
 button:hover{
-    background:#6b4242;
+    background:#6b4242; /*quando o mouse passa muda de cor*/
 }
 
 .informacoes{
-    margin-top:30px;
+    margin-top:30px;    /*adiciona distancia acima da seção*/
 }
 
-footer{
-    text-align:center;
-    background:#4b2e2e;
-    color:white;
-    padding:15px;
-    margin-top:30px;
+footer{                            /*rodapé*/
+    text-align:center;          /*centraliza*/
+    background:#4b2e2e;       /*fundo marrom*/
+    color:white;              /*texto branco*/
+    padding:15px;               /*espaçamento interno*/
+    margin-top:30px;            /*distancia do conteudo acima*/
 }
